@@ -1,0 +1,68 @@
+<!doctype HTML>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--Link to local favicon-->
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="img/manifest.json">
+        <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+        
+        <!--Link to local stylesheet-->
+        <link rel="stylesheet" href="CSS/CSS.css">
+        
+        <meta name="theme-color" content="#ffffff">
+        <meta charset="utf-8">
+        
+        <title>Calculator</title>
+    </head>
+    <body>
+        
+        <div class="jumbotron">
+            <heading>
+                <h1 class="title">World's simplest Calculator</h1>
+                <p class="title">Only +, -, * and /</p>
+            </heading>
+        </div>
+        
+        <!--the body of the calculator-->
+        <div id="cbody">
+            
+            <!--Where the numberinputs are, and where the answer is diplayed-->
+            <form id="calc">
+                <p class="type"><input id="num1" type="number" placeholder="Number 1"></p>
+                <p class="type"><input id="num2" type="number" placeholder="Number 2"></p>
+                <p class="type"><output id="answer"> </output></p>
+            </form>
+            
+            <!--The first row of buttons-->
+            <div id="row1">
+                <button class="button" id="plus">+</button>
+                <button class="button" id="minus">-</button>
+                <button class="button" id="clear">C</button>
+            </div>
+            
+            <!--The second row of buttons  -->
+            <div id="row2">
+                <button class="button" id="multiply">*</button>
+                <button class="button" id="division">/</button>
+            </div>
+            
+        </div>
+        <!--link to to local JS-->
+        <script src="script/script.js"></script>
+        
+        <footer class="jumbotron"><p>Created By Thomas Stolpnes</p></footer>
+    </body>
+</html>

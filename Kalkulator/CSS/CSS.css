@@ -1,0 +1,76 @@
+/* styling HTML body section */
+body
+{
+    background-color: azure;
+}
+
+/* stying the body of the calculator */
+#cbody
+{
+    width: 255px;
+    border: solid 40px rgb(170,170,170);
+    border-radius: 5px;
+    background-color: rgb(170,170,170);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+
+
+/* defining ipunts and output textboxstyle and size */
+.type 
+{
+    height: 26px;
+    width: 173px;
+    background-color: white;
+    text-align: left;
+}
+
+
+/* styling the buttons */
+.button 
+{
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+/* styling C button */
+#clear
+{
+    position: absolute;
+    height: 82px;
+    width: 82px;
+    margin 5px;
+    margin-left: 5px;
+    font-size: 50px;
+    color: white;
+    background-color: orange;
+}
+
+/*  styling header and footer */
+.jumbotron
+{
+    height: 150px;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: aquamarine;
+    height: auto;
+}
+
+/* removing arrows in the inputbox */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{ 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

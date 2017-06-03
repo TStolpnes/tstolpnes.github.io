@@ -1,0 +1,78 @@
+/* removing visibility of the answers on the page */
+.answer
+{
+    display: none;
+}
+
+/* used to position the images to the right of the question */
+h2
+{
+    display: inline-block;
+}
+
+/* styling the sjekk svar button */
+#check
+{
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    height: 40px;
+    width: 175px;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+/* hiding the images */
+#oppg1R
+{
+    display: none;
+}
+
+#oppg1W
+{
+    display: none;
+}
+
+#oppg2R
+{
+    display: none;
+}
+
+#oppg2W
+{
+    display: none;
+}
+
+#oppg3R
+{
+    display: none;
+}
+
+#oppg3W
+{
+    display: none;
+}
+
+
+#oppg4R
+{
+    display: none;
+}
+
+#oppg4W
+{
+    display: none;
+}
+
+#oppg5R
+{
+    display: none;
+}
+
+#oppg5W
+{
+    display: none;
+}

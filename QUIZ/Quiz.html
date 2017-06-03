@@ -1,0 +1,89 @@
+ <!doctype HTML>
+<html>
+    <head>
+                <!--Link to local stylesheet-->
+        <link rel="stylesheet" href="CSS/CSS.css">
+        
+        <meta name="theme-color" content="#ffffff">
+        <meta charset="utf-8">
+        
+        <title>IT quiz</title>
+    </head>
+    <body>
+        <div id="body">
+        <h1>IT quiz</h1>
+        
+        <!-- question 1 -->    
+        <div id="oppgave1">
+            <h2>Spørsmål 1<img id="oppg1R" src="IMG/rightAnswer.png" width="25px"> <img id="oppg1W" src="IMG/wrongAnswer.png" width="25px"></h2>
+            <p>Hva må du skirve i javascript for å finne lengden av Arrayen? <br> <img src="IMG/Array.png"></p>
+            <form id="texttask">
+                <input id="textInput" type="text" placeholder="skriv så enkelt som mulig">
+            </form>
+            <div class="answer">
+                <p id="textans">findMyLength.length</p>
+            </div>
+        </div>
+        
+            <!-- question 2 -->
+        <div id="oppgave2">
+            <h2>Spørsmål 2 <img id="oppg2R" src="IMG/rightAnswer.png" width="25px"> <img id="oppg2W" src="IMG/wrongAnswer.png" width="25px"></h2>
+            <p>Denne loopen kjører. Hvor mange ganger kjører den? <br> <img src="IMG/loopSpm.png"></p>
+            <form id="numbertask">
+               <input id="numberInput" type="number"> 
+            </form>
+            <div class="answer">
+                <p id="numberans">1</p>
+            </div>
+        </div>
+        
+        <!-- question 3 -->    
+        <div id="oppgave3">
+            <h2>spørsmål 3 <img id="oppg3R" src="IMG/rightAnswer.png" width="25px"> <img id="oppg3W" src="IMG/wrongAnswer.png" width="25px"></h2>
+            <p>hva blir skrevet i HTML koden her? <br> <img src="IMG/arraySpm.png"></p>
+            <form id="radiotask">
+                <input id="rad1" type="radio" name="spm3"> which <br>
+                <input id="rad2" type="radio" name="spm3"> alternative <br>
+                <input id="rad3" type="radio" name="spm3"> is <br>
+                <input id="rad4" type="radio" name="spm3"> correct 
+            </form>
+        
+            <div class="answer">
+                <p id="radioans">4</p>
+            </div>    
+        </div>
+        
+        <!-- question 4 -->    
+        <div id="oppgave4">
+            <h2>Spørsmål 4 <img id="oppg4R" src="IMG/rightAnswer.png" width="25px"> <img id="oppg4W" src="IMG/wrongAnswer.png" width="25px"></h2>
+            <p>Hvilket alternativ er riktig for å sette inn 5 på slutten av arrayen? <br> <img src="IMG/Array.png"></p>
+            <form id="checkboxtask">
+                <input id="opt1" type="checkbox" value=""> findMyLength.push(5) <br>
+                <input id="opt2" type="checkbox" value=""> findMyLength.pop(5) <br>
+                <input id="opt3" type="checkbox" value=""> findMyLength[5] <br>
+                <input id="opt4" type="checkbox" value=""> findMyLength += 5 <br>
+            </form>
+        </div>
+            
+        <!-- question 5 -->    
+        <div id="oppgave5">
+            <h2>Spørsmål 5<img id="oppg5R" src="IMG/rightAnswer.png" width="25px"> <img id="oppg5W" src="IMG/wrongAnswer.png" width="25px"></h2>
+            <p>Loopen kjører. Hvilket/hvilke tall printes ut i HTML? <br> <img src="IMG/whileLoop.png"> </p>
+            <select id="dropdowntask">
+                <option value="1">tallet 9</option>
+                <option value="2">tallet 10</option>
+                <option value="3">tallene 0-9</option>
+                <option vlaue="4">tallene 0-10</option>
+            </select>
+            <div class="answer">
+                <p id="dropdownans">3</p>
+            </div>
+        </div>
+        <br>
+        
+        <!-- submit button for checking if the answers is correct -->
+        <button id="check">Sjekk svar</button>
+        </div>
+        <script src="JS/JS.js"></script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+
+/*@keyframes down
+{
+    0% {margin-top: 0px;margin-left: 0px;}
+    25% {margin-top: 500px; margin-left: 0px;}
+    50% {margin-top: 500px; margin-left: 500px;}
+    75% {margin-left: 500px; margin-top: 0px;}
+    100% {margin-top: 0px; margin-left: 0px;}
+}*/
+ 
+#firkant
+{
+    border-style: solid;
+    border-width: 50px;
+    display: inline-block;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-name: kollisjon;
+     animation-fill-mode: forwards;
+}
+#firkant2
+{
+    border-style: solid;
+    border-width: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 308px;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-name: kollisjon2;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+   
+}
+
+@keyframes kollisjon
+{
+    from
+    {
+        margin-left: 0px;
+    }
+    to
+    {
+        margin-left: 200px
+    }
+}
+@keyframes kollisjon2
+{
+    from
+    {
+        margin-left: 0px;
+    }
+    to
+    {
+        margin-left: 250px
+    }
+}
